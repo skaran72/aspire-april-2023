@@ -4,7 +4,7 @@
 ## Instructions to run the app, locally:
 
 1. `npm install`
-2. `npm run dev`
+2. `npm run dev` to start the server
 
 ```
 > aspire-take-home-assignment@1.0.0 dev
@@ -13,7 +13,12 @@
 [INFO] 20:42:45 ts-node-dev ver. 2.0.0 (using ts-node ver. 10.9.1, typescript ver. 5.0.3)
 3001
 Listening on port 3001
+...
+...
+
 ```
+
+3. `npm run test` for tests 
 
 Sample request curl:
 ```

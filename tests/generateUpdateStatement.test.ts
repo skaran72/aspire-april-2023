@@ -1,4 +1,4 @@
-import generateUpdateStatement from "../../src/service/generateUpdateStatement";
+import generateUpdateStatement from "../src/services/generateUpdateStatement";
 
 describe("generateUpdateStatement", () => {
   it("returns an empty object when given an empty document and mutation", () => {
