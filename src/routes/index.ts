@@ -1,6 +1,6 @@
 import express, {Request, Response} from "express";
 import _ from 'lodash';
-import generateUpdateStatement from "../service/generateUpdateStatement";
+import generateUpdateStatement from "../services/generateUpdateStatement";
 
 const router = express.Router();
 
